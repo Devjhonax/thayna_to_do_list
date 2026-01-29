@@ -13,7 +13,7 @@ app.use(cors({
   credentials: true
 }));
 
-app.use(router)
+app.use("/api",router)
 
 //função que conecta com o banco de dados.
 sequelize.sync()

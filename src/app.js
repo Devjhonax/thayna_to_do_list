@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json())
 
 app.use(cors({
-  origin: "https://thayane-gomess.github.io/sistema-de-tarefas",
+  origin: "https://thayane-gomess.github.io",
   credentials: true
 }));
 
